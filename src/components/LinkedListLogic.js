@@ -39,5 +39,3 @@ export class LinkedList {
 export let linkedList = new LinkedList();
 
 
-
-console.log(`linkedList`, linkedList)

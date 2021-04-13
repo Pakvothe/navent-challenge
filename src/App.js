@@ -1,5 +1,6 @@
 import './App.css';
-import LinkedListComponent from './LinkedListComponent'
+import LinkedListComponent from './components/LinkedListComponent'
+
 const App = () => {
   return (
     <div className="App">
