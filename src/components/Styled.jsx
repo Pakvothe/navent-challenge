@@ -3,7 +3,6 @@ import SVG from "react-inlinesvg";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
 `;
@@ -21,6 +20,13 @@ export const NaventHeader = styled.header`
   h4 {
     flex: 1;
     color: #9595a0;
+  }
+
+  @media (max-width: 750px) {
+    font-size: 18px;
+    h4 {
+      font-size: 16px;
+    }
   }
 `;
 
@@ -50,7 +56,7 @@ export const TransparentCard = styled.div`
       color: #fafafa;
 
       h5 {
-        margin-bottom: 1em;
+        margin: 1em 0;
       }
     }
   }
@@ -59,6 +65,9 @@ export const TransparentCard = styled.div`
 export const StyledSVG = styled(SVG)`
   height: 120px;
   flex: 1;
+  @media (max-width: 750px) {
+    height: 80px;
+  }
 `;
 
 export const StyledInput = styled.input`
@@ -97,4 +106,32 @@ export const StyledButton = styled.button`
 export const Warning = styled.p`
   color: #582568;
   font-weight: bold;
+`;
+
+export const NaventFooter = styled.footer`
+  background: rgba(88, 37, 104, 0.712);
+  color: #fafafa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  margin-top: 2em;
+
+  a {
+    color: #fafafa;
+    text-decoration: none;
+
+    &:hover {
+      color: #582568;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
+
+  @media (max-width: 750px) {
+    font-size: 18px;
+    h4 {
+      font-size: 16px;
+    }
+  }
 `;

@@ -36,6 +36,41 @@ export class LinkedList {
   }
   
 }
+
+
+export const mergeTwoLists = (l1, l2) => {
+  if (!l1) return l2;
+  if (!l2) return l1;
+ let finalList= new LinkedList();
+ let currentl1 = l1.head;
+ let currentl2 = l2.head;
+
+while(currentl1  !== null || currentl2 !== null) {
+  if(currentl1.data <= currentl2.data) {
+    finalList.addTail(currentl1.data)
+    if(!currentl1.next){
+      finalList.addTail(currentl2.data)
+      return finalList
+    }
+    currentl1 = currentl1.next;
+ 
+  } else if(currentl2.data <= currentl1.data){
+   finalList.addTail(currentl2.data)
+   if(!currentl2.next){
+    finalList.addTail(currentl1.data)
+
+    return finalList
+  }
+   currentl2 = currentl2.next;
+  }
+
+}
+
+return finalList;
+};
+
 export let linkedList = new LinkedList();
+export let list1 = new LinkedList();
+export let list2= new LinkedList();
 
 

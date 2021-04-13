@@ -101,12 +101,12 @@ const LinkedListComponent = () => {
           <p>{problemA}</p>
         </div>
         <div className="problemContainer">
-          <h4>Solucion:</h4>
+          <h4>Solución:</h4>
           {random ? (
             <>
               <p className="showList">{JSON.stringify(list)}</p>
               <div className="codeContainer">
-                <h5>Codigo de la LinkedList</h5>
+                <h5>Código de la LinkedList</h5>
                 <p>{JSON.stringify(linkedList)}</p>
               </div>
 
@@ -133,7 +133,7 @@ const LinkedListComponent = () => {
           ) : (
             <>
               <p>
-                Toca el Boton para generar una lista aleatoria o para generar la
+                Toca el Botón para generar una lista aleatoria o para generar la
                 lista del ejemplo del ejercicio.
               </p>
               <StyledButton onClick={handleRandom}>Generar Lista</StyledButton>
