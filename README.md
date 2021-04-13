@@ -4,7 +4,7 @@
 
 `Intrucciones`
 
-> Puede ver el challenge online aqui: https://pakvothe.github.io/navent-challenge/
+> Puede ver el challenge online aqui: https://navent-challenge.vercel.app/
 
 - Clonar el repositorio
 - En la raiz ejecutar `npm install`
