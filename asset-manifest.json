@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/navent-challenge/static/css/main.4b1e3840.chunk.css",
+    "main.js": "/navent-challenge/static/js/main.0b657f59.chunk.js",
+    "main.js.map": "/navent-challenge/static/js/main.0b657f59.chunk.js.map",
+    "runtime-main.js": "/navent-challenge/static/js/runtime-main.fc7fcdc2.js",
+    "runtime-main.js.map": "/navent-challenge/static/js/runtime-main.fc7fcdc2.js.map",
+    "static/js/2.aaec68c0.chunk.js": "/navent-challenge/static/js/2.aaec68c0.chunk.js",
+    "static/js/2.aaec68c0.chunk.js.map": "/navent-challenge/static/js/2.aaec68c0.chunk.js.map",
+    "index.html": "/navent-challenge/index.html",
+    "static/css/main.4b1e3840.chunk.css.map": "/navent-challenge/static/css/main.4b1e3840.chunk.css.map",
+    "static/js/2.aaec68c0.chunk.js.LICENSE.txt": "/navent-challenge/static/js/2.aaec68c0.chunk.js.LICENSE.txt",
+    "static/media/NaventLogo.8435c853.svg": "/navent-challenge/static/media/NaventLogo.8435c853.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc7fcdc2.js",
+    "static/js/2.aaec68c0.chunk.js",
+    "static/css/main.4b1e3840.chunk.css",
+    "static/js/main.0b657f59.chunk.js"
+  ]
+}
